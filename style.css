@@ -1,1 +1,31 @@
 // css
+<!DOCTYPE>
+<html>
+    <head>
+    <title>Html document</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <form action="process.php" method="post">
+            <p>Username
+            <input type="text" placeholder="Enter Username">
+            </p>
+            <p>Email
+            <input type="email" placeholder="xyz@gmail.com">
+            </p>
+            <p>Enter Password
+            <input type="password">
+            </p>
+            <p>Choose File
+                <input type="file">
+            </p>
+           
+            </form>
+            <p>
+                <a href="image.html">Click here to Submit</a>
+            </p>
+            
+    
+    
+    </body>
+</html>
