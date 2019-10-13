@@ -2,9 +2,40 @@
 <html>
 <head>
 	<title>this is my first page</title>
-</head>
+	<style>
+.item1{grid-area: header; }
+.item2{grid-area: menu;}
+.item3{grid-area: main;}
+.item4{grid-area: display;}
+.item5{grid-area: footer;}
+.grid-container{
+	display: grid;
+	grid-template-areas: 
+	'header header header header header header'
+	'menu main main main display display'
+	'menu footer footer footer footer footer';
+	grid-gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+}
+.grid-container> div{
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 20px 0;
+    font-size:30px;
+}
+</style>
+	</head>
 <body>
 <h1>Hello boy</h1>
+	
+<div class="grid-container">
+	<div class="item1">header</div>
+	<div class="item2">menu</div>
+	<div class="item3">main</div>
+	<div class="item4">display</div>
+	<div class="item5">footer</div>
+</div>
 </body>
 </html>
 naman singh
