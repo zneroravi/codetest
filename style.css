@@ -1,1 +1,23 @@
-// css
+<!DOCTYPE>
+<html>
+    <head><title>FILL THE DETAIL</title></head>
+    <body><h2>fill the detail</h2>
+        <form>
+            <fieldset>
+                <legend>important</legend> 
+                <p>name</p>
+                <input type="text"  placeholder="name"><br>
+                place<br>
+                <input type="text" placeholder="place">
+            </fieldset>
+           
+            <p>Gender</p>
+            <input type="radio" name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">female<br>
+            <input type="radio" name="gender" value="other">other<br>
+            <br>
+            <input type="button" value="submit">
+            
+        </form>
+    </body>
+</html>
